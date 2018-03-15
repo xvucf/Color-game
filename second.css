@@ -1,0 +1,83 @@
+html{
+    background-color: black;
+}
+body{
+    font-size: 20px;
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    
+    
+}
+h1{
+    margin: 0;
+    font-size:3em;
+}
+h2{
+   margin: 0.5em;
+    font-size:2em;
+}
+.topcontent{
+    text-align: center;
+    color: antiquewhite;
+    background-color: #007F07 /*#B20300*/;
+    padding: 0.1em 0;
+}
+/*-------------"MENU"-----*/
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    padding: 0.5em;
+    background-color:#00FF0F ;
+    color: black;
+}
+
+ul>li:nth-child(1){
+   margin-right: 4em;
+}
+ul>li:nth-child(2){
+   margin-left: 4em;
+}
+ul>li:nth-child(3){
+   margin-left: 1em;
+}
+/*-----------WRAP COLORS---------
+.wrapcolors{
+    background-color: black/*#FFF819;
+    
+    padding: .4em;
+}
+.center{
+    /*background-color: blueviolet;
+    width: 32em;
+    margin: auto ;
+    display: flex;
+     flex-wrap: wrap;
+    justify-content: center;
+}
+.wrapcolors> .center>div{
+    height: 8em;
+    width:8em;
+    border-radius: 20%;
+    background-color: aqua;  
+    margin: 1em;
+}
+.st{
+ background-color: aqua;   
+}*/
+#wrapcolors{
+    max-width: 600px;
+    margin: 0.5em auto;
+    background-color: black;
+}
+.square{
+    width: 30%;
+    height:30%;
+    background-color: darkred;
+   padding-bottom:30%;
+    float:left;
+    margin:1.66%;
+}
